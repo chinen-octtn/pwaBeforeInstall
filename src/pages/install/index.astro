@@ -1,0 +1,30 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Text from "../../components/Text.astro";
+import Button from "../../components/Button.astro";
+
+const title = "Install page";
+---
+
+<Layout title={title}>
+  <main>
+    <h1>Install Page</h1>
+    <Text
+      text="ダウンロードボタンからインストールメニューを開くことができます。"
+    />
+    <Button id="installButton" text="アプリをダウンロード" />
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    padding: 1.5rem;
+    max-width: 60ch;
+  }
+  h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0;
+  }
+</style>

@@ -1,0 +1,35 @@
+---
+---
+
+<ul>
+  <li><a href="/">Home</a></li>
+  <li><a href="/install/">Install</a></li>
+</ul>
+
+<style>
+  ul {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  li {
+    list-style: none;
+    border-top: 1px solid #000;
+  }
+  li + li {
+    border-left: 1px solid #000;
+  }
+  a {
+    display: block;
+    padding: 1em;
+    text-align: center;
+    display: grid;
+    place-items: center;
+    color: darkblue;
+  }
+</style>
