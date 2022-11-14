@@ -28,5 +28,20 @@
   "start_url": "/?utm_source=homescreen",
   "display": "standalone",
   "background_color": "#FFFFFF",
-  "theme_color": "#FFFFFF"
+  "theme_color": "#FFFFFF",
+  "description": "PWAについての説明を追加することができます。",
+  "screenshots": [
+    {
+      "src": "images/screenshopt-1.jpg",
+      "sizes": "1125x1889",
+      "type": "image/jpg",
+      "label": "ホームから起動したときの画面"
+    },
+    {
+      "src": "images/screenshopt-2.jpg",
+      "sizes": "1125x1884",
+      "type": "image/jpg",
+      "label": "インストールページ"
+    }
+  ]
 }
