@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+const title = 'PWA Install Sample'
+---
+
+<Layout title={title}>
+	<main>
+    <h1>PWA Install Sample</h1>
+    <p>フロントエンドカンファレンス沖縄 2022へようこそ！</p>
+    <p>
+      このサイトはセッション「PWAをインストールしやすくするための実装」のSampleコードです。
+    </p>
+    <button type="button" id="installButton">アプリをダウンロード</button>
+	</main>
+</Layout>
+
+<style>
+	main {
+		margin: auto;
+		padding: 1.5rem;
+		max-width: 60ch;
+	}
+	h1 {
+		font-size: 3rem;
+		font-weight: 800;
+		margin: 0;
+	}
+</style>

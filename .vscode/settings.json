@@ -1,4 +1,6 @@
 {
+  "recommendations": ["astro-build.astro-vscode"],
+  "unwantedRecommendations": [],
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.fixAll.stylelint": true
