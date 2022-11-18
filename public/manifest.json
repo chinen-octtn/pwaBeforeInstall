@@ -32,16 +32,22 @@
   "description": "PWAについての説明を追加することができます。",
   "screenshots": [
     {
-      "src": "images/screenshopt-1.jpg",
+      "src": "images/screenshopt-1.png",
       "sizes": "1125x1889",
-      "type": "image/jpg",
-      "label": "ホームから起動したときの画面"
+      "type": "image/png",
+      "label": "ホーム"
     },
     {
-      "src": "images/screenshopt-2.jpg",
+      "src": "images/screenshopt-2.png",
       "sizes": "1125x1884",
-      "type": "image/jpg",
+      "type": "image/png",
       "label": "インストールページ"
+    },
+    {
+      "src": "images/screenshopt-2.png",
+      "sizes": "1125x1884",
+      "type": "image/png",
+      "label": "マイページ"
     }
   ],
   "shortcuts": [
