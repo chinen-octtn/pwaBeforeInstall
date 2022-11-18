@@ -43,5 +43,12 @@
       "type": "image/jpg",
       "label": "インストールページ"
     }
+  ],
+  "shortcuts": [
+    {
+      "name": "マイページ",
+      "url": "/mypage/",
+      "description": "お気に入りを確認する"
+    }
   ]
 }
