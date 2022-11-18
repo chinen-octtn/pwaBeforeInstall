@@ -13,7 +13,7 @@ if ("serviceWorker" in navigator) {
     eventPrompt = event;
 
     // デフォルトのmini-infobarは非表示にする
-    // eventPrompt.preventDefault();
+    eventPrompt.preventDefault();
 
     // インストールしたかキャンセルしたかを確認する
     eventPrompt.userChoice.then((choiceResult) => {
@@ -24,8 +24,34 @@ if ("serviceWorker" in navigator) {
   // インストールボタンを押したら、installメニューを表示する
   const button = document.querySelector("#installButton");
 
-  button.addEventListener("click", () => {
+  button?.addEventListener("click", () => {
     console.log("click");
     eventPrompt.prompt();
+  });
+
+  // バッジ表示
+  const number = 2;
+
+  if (navigator.setAppBadge) {
+    navigator.setAppBadge(number);
+  } else if (navigator.setExperimentalAppBadge) {
+    navigator.setExperimentalAppBadge(number);
+  } else if (window.ExperimentalBadge) {
+    window.ExperimentalBadge.set(number);
+  }
+
+  // バッジを消す
+  const clearButton = document.querySelector("#clear");
+
+  clearButton?.addEventListener("click", () => {
+    if (navigator.setAppBadge) {
+      navigator.clearAppBadge();
+    } else if (navigator.setExperimentalAppBadge) {
+      navigator.clearExperimentalAppBadge();
+    } else if (window.ExperimentalBadge) {
+      window.ExperimentalBadge.clear();
+    }
+
+    clearButton.disabled = true;
   });
 }
