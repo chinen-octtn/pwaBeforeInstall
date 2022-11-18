@@ -28,4 +28,8 @@ if ("serviceWorker" in navigator) {
     console.log("click");
     eventPrompt.prompt();
   });
+
+  // バッジ表示
+  const unread = 2;
+  navigator.setAppBadge(unread);
 }
