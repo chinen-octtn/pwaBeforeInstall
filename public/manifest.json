@@ -28,6 +28,5 @@
   "start_url": "/?utm_source=homescreen",
   "display": "standalone",
   "background_color": "#FFFFFF",
-  "theme_color": "#FFFFFF",
-  "description": "PWAについての説明を追加することができます。"
+  "theme_color": "#FFFFFF"
 }

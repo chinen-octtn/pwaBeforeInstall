@@ -20,5 +20,10 @@ const { text, id } = Astro.props;
     margin: 0 auto;
     padding: 1em 0.5em;
     border: none;
+    cursor: pointer;
+  }
+  button:disabled {
+    background: gray;
+    pointer-events: none;
   }
 </style>
