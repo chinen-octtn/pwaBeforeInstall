@@ -48,7 +48,7 @@
     {
       "name": "マイページ",
       "url": "/mypage/",
-      "description": "お気に入りを確認する"
+      "description": "通知を確認する"
     }
   ]
 }

@@ -10,17 +10,28 @@ const title = "Install page";
 <Layout title={title}>
   <Heading text={title} />
   <Text
-    text="ダウンロードボタンからインストールメニューを開くことができます。"
+    text="アプリをダウロードするとホーム画面からすぐに起動してサービスを活用できます。"
   />
   <Button id="installButton" text="アプリをダウンロード" />
-  <Text
-    text="ダウロードするとホーム画面からすぐに起動してサービスを活用できます。"
-  />
   <ul>
-    <li>新着のニュースがあるとバッジでお知らせ</li>
+    <li>新着のニュースをバッジでお知らせ</li>
     <li>オフラインでも使える</li>
     <li>マイページにショートカット</li>
   </ul>
+  <p>
+    <img src="/images/app.png" alt="通知マークがついているアプリアイコン" />
+  </p>
 </Layout>
 
-<style></style>
+<style>
+  ul {
+    margin-top: 3rem;
+  }
+  li + li {
+    margin-top: 1rem;
+  }
+  img {
+    border: 1px solid gray;
+    border-radius: 4px;
+  }
+</style>
