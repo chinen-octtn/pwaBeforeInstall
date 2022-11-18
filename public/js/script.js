@@ -13,7 +13,7 @@ if ("serviceWorker" in navigator) {
     eventPrompt = event;
 
     // デフォルトのmini-infobarは非表示にする
-    // eventPrompt.preventDefault();
+    eventPrompt.preventDefault();
 
     // インストールしたかキャンセルしたかを確認する
     eventPrompt.userChoice.then((choiceResult) => {
