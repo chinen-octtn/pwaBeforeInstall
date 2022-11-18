@@ -49,12 +49,5 @@
       "type": "image/png",
       "label": "マイページ"
     }
-  ],
-  "shortcuts": [
-    {
-      "name": "マイページ",
-      "url": "/mypage/",
-      "description": "通知を確認する"
-    }
   ]
 }
