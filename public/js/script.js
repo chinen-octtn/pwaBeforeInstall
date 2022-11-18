@@ -31,5 +31,5 @@ if ("serviceWorker" in navigator) {
 
   // バッジ表示
   const unread = 2;
-  navigator.setAppBadge(unread);
+  navigator.setClientBadge(unread);
 }
