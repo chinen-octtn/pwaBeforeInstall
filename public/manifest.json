@@ -33,19 +33,19 @@
   "screenshots": [
     {
       "src": "images/screenshopt-1.png",
-      "sizes": "1125x1889",
+      "sizes": "1440x2560",
       "type": "image/png",
       "label": "ホーム"
     },
     {
       "src": "images/screenshopt-2.png",
-      "sizes": "1125x1884",
+      "sizes": "1440x2560",
       "type": "image/png",
       "label": "インストールページ"
     },
     {
       "src": "images/screenshopt-2.png",
-      "sizes": "1125x1884",
+      "sizes": "1440x2560",
       "type": "image/png",
       "label": "マイページ"
     }
