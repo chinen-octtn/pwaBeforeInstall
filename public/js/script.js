@@ -55,3 +55,10 @@ if ("serviceWorker" in navigator) {
     clearButton.disabled = true;
   });
 }
+
+window.OneSignal = window.OneSignal || [];
+OneSignal.push(function () {
+  OneSignal.init({
+    appId: "0e24b5e3-24ec-453b-aff6-e85b4bf575f8",
+  });
+});
